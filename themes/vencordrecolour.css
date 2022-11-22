@@ -1,0 +1,81 @@
+/**
+ * VencordRecolor v1.0.1
+ * Feel comfy while allowing you to customize Discord's Color Scheme
+ * by Jay (710329141903360011)
+ * invite: https://discord.gg/8kfGhJHydH
+ * patreon: https://www.patreon.com/sl4f
+ * website: https://heartless.uno
+ * source: https://github.com/SL4F/betterdiscord/tree/main/themes/comfyxdiscordrecolor
+ * raw: https://sl4f.github.io/betterdiscord/themes/comfyxdiscordrecolor/comfyxdiscordrecolor.theme.css
+ */
+
+/* Important tips
+*
+*   To comment or uncomment a line you need to put those "/" and "*" characters as you can see at the beginning and ending of my comments.
+*      (You don't need to put a * at each line like I do, it's just for readability). See more here : https://developer.mozilla.org/en-US/docs/Web/CSS/Comments
+*
+*   You can play with the values and see how it goes, don't delete "px" after the value if you don't have knowledges in CSS.
+*
+*   To change the colors, replace the HEX/RGB code with the one you picked here : https://htmlcolorcodes.com
+*   
+*   MUST BE THE SAME TYPE OF COLOUR CODE AS IT ORIGORIGINALLY WAS
+*/
+
+  /* Discord Recolour */
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+
+  /* No Scrollbars */
+@import url(https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css);
+
+  /* Better Badges */
+@import url(https://mr-miner1.github.io/Better-Badges/src/badges.css);
+
+  /* Settings Model */
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
+
+:root {
+  /* ---------- Discord Recolor ---------- */
+
+    --font:                        Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;                    /*    General Font                */
+    --settingsicons:            1;                        /*    Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no            */
+    
+    --accentcolor:                     114,137,218;                /*    Blurple                 -     default:    114,137,218        */
+    --accentcolor2:             255,115,250;            /*    Boostpink             -     default:    255,115,250        */
+    --linkcolor:                  114,137,218;                /*    Link Color             -     default:    0,176,244        */
+    --mentioncolor:             250,166,26;                /*    Highlight Color         -     default:    250,166,26        */
+    --successcolor:             59,165,92;                /*    Success Color         -     default:    59,165,92        */
+    --warningcolor:             250,166,26;                /*    Warning Color         -     default:    250,166,26        */
+    --dangercolor:              237,66,69;                /*    Danger Color         -     default:    237,66,69        */
+    
+    --textbrightest:             255,255,255;            /*    Text Color 1         -     default:    255,255,255        */
+    --textbrighter:             222,222,222;            /*    Text Color 2         -     default:    220,221,222        */
+    --textbright:                 185,185,185;            /*    Text Color 3         -     default:    185,187,190        */
+    --textdark:                 140,140,140;            /*    Text Color 4         -     default:    142,146,151        */
+    --textdarker:                 115,115,115;            /*    Text Color 5         -     default:    114,118,125        */
+    --textdarkest:                 80,80,80;                /*    Text Color 6         -     default:    79,84,92        */
+    
+    --backgroundaccent:           64,68,75;                /*    Background Accent     -     default:    64,68,75        */
+    --backgroundprimary:           54,57,63;                /*    Background 1         -     default:    54,57,63        */
+    --backgroundsecondary:           47,49,54;                /*    Background 2         -     default:    47,49,54        */
+    --backgroundsecondaryalt:       41,43,47;                /*    Background 3         -     default:    41,43,47        */
+    --backgroundtertiary:           32,34,37;                /*    Background 4         -     default:    32,34,37        */
+    --backgroundfloating:         24,25,28;                    /*    Background Elevated     -     default:    24,25,28        */
+
+  /* ---------- Better Badges ---------- */
+  /*discord defualt = 18px, theme defualt = 22px*/
+  --badge-size: 22px;                /*    Badge Size                 -     default:    22px        */
+  /*discord default = 2px, theme defualt = 1.5px*/
+  --badge-margin: 1.5px;                /*    Badge Margin                 -     default:    1.5px        */
+  --badges-everywhere-size: 15px;                /*    Badges Everywhere                 -     default:    15px        */
+
+  /* ---------- SettingsModal ---------- */
+    --settingsmodalbackground:     transparent;            /* default                 -     transparent        (lowest bg color of changed windows, change it in case another theme turns them transparent)    */
+    --settingsmodalwidth:         1000px;                    /* default                 -     960px            (width of the settings modal, px/vw)                                                            */
+    --settingsmodalheight:         90vh;                    /* default                 -     80vh            (height of the settings modal, px/vh)                                                            */
+}
+
+/*CREDITS
+DiscordRecolor by DevilBro - https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecolor
+Better Badges by Mr Miner - https://github.com/mr-miner1/Better-Badges
+SettingsModal by DevilBro - https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/SettingsModal
+*/
