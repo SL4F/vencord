@@ -1,0 +1,4 @@
+/* ---------- Hide Thread Suggestions ----------  */
+[class^="threadSuggestionBar"] {
+    display: none;
+}
