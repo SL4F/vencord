@@ -5,8 +5,8 @@
  * invite: https://discord.gg/8kfGhJHydH
  * patreon: https://www.patreon.com/sl4f
  * website: https://heartless.uno
- * source: https://github.com/SL4F/betterdiscord/tree/main/themes/comfyxdiscordrecolor
- * raw: https://sl4f.github.io/betterdiscord/themes/comfyxdiscordrecolor/comfyxdiscordrecolor.theme.css
+ * source: https://github.com/SL4F/vencord/blob/main/themes/vencordrecolour.css
+ * raw: https://sl4f.github.io/vencord/themes/vencordrecolour.css
  */
 
 /* Important tips
@@ -20,6 +20,15 @@
 *   
 *   MUST BE THE SAME TYPE OF COLOUR CODE AS IT ORIGORIGINALLY WAS
 */
+
+  /* Hide Nitro */
+@import url(https://sl4f.github.io/vencord/themes/hidenitro.css)
+
+  /* Hide Vencord Dono */
+@import url(https://sl4f.github.io/vencord/themes/hidedono.css)
+
+  /* Hide Thread Suggestions */
+@import url(https://sl4f.github.io/vencord/themes/hidethreadsuggestions.css)
 
   /* Discord Recolour */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
