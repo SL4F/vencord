@@ -22,22 +22,23 @@
 */
 
   /* Hide Nitro */
-@import url(https://sl4f.github.io/vencord/themes/hidenitro/hidenitro.css);
+  @import url(https://sl4f.github.io/vencord/themes/hidenitro/hidenitro.css);
 
   /* Hide Thread Suggestions */
 @import url(https://sl4f.github.io/vencord/themes/hidethreadsuggestions/hidethreadsuggestions.css);
 
   /* Discord Recolour */
-@import url(https://sl4f.github.io/vencord/themes/discordrecolour/discordrecolour.css);
+@import url(https://sl4f.github.io/vencord/themes/DiscordRecolour/src/DiscordRecolour.css);
 
   /* No Scrollbars */
-@import url(https://sl4f.github.io/vencord/themes/noscrollbar/noscrollbar.css);
+@import url(https://sl4f.github.io/vencord/themes/NoScrollbar/NoScrollbar.css);
 
   /* Better Badges */
-@import url(https://sl4f.github.io/vencord/themes/betterbadges/src/darkbadges.css);
+@import url(https://sl4f.github.io/vencord/themes/betterbadges/src/DarkBadges.css);
 
   /* Settings Model */
-@import url(https://sl4f.github.io/vencord/themes/settingsmodal/settingsmodal.css);
+@import url(https://sl4f.github.io/vencord/themes/SettingsModal/src/SettingsModal.css);
+
 
 :root {
   /* ---------- Discord Recolour ---------- */
