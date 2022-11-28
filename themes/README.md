@@ -8,4 +8,9 @@
  - Hide Nitro - Hides specific nitro advertisements
  - Better Badges - Adds cool animations to discord's badges
  - Hide Thread Suggestions - Hides suggestions to create threads
- - Ultimate Themer - Ultimate theme that includes all above
+ - Ultimate Themer - Ultimate theme that includes all my other themes
+
+## Credits
+### - DiscordRecolor by DevilBro - https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecolor
+### - Better Badges by Mr Miner - https://github.com/mr-miner1/Better-Badges
+### - SettingsModal by DevilBro - https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/SettingsModal
