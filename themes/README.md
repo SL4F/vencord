@@ -12,7 +12,7 @@
  - Ultimate Themer - Ultimate theme that includes all my other themes
 
 ## Original Creator Credits
- - [No Scrollbar](https://github.com/Comfy-Themes/Discord/blob/master/betterdiscord/no-scrollbar.css) by Mr Miner
+ - [No Scrollbar](https://github.com/Comfy-Themes/Discord/blob/master/betterdiscord/no-scrollbar.css) by NYRIA
  - [Better Badges](https://github.com/mr-miner1/Better-Badges) by Mr Miner
  - [Basic Background](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground) by DevilBro
  - [Blurple Recolor](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BlurpleRecolor) by DevilBro
