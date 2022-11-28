@@ -1,2 +1,2 @@
 # Plugins
- - Name - Description
+ - [Name]() - Description
