@@ -1,13 +1,13 @@
 /**
 * @name Better Badges
-* @author mr_miner#6969
-* @version 1.2.9
+* @author SL4F (original by mr_miner#6969)
+* @version 1.3.0
 * @description A theme which adds cool animations to discord's badges!
-* @source https://github.com/mr-miner1/Better-Badges
-* @updateUrl https://github.com/mr-miner1/Better-Badges/blob/main/BetterBadges(BD).theme.css
+* @source https://github.com/SL4F/vencord/tree/main/themes/betterbadges
+* @updateUrl https://sl4f.github.io/vencord/themes/betterbadges/betterbadges.css
 */
 
-@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
+@import url('https://sl4f.github.io/vencord/themes/betterbadges/src/DarkBadges.css');
 :root{
     --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
     --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
