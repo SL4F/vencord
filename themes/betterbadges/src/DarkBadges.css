@@ -1,55 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap");
 @keyframes devbadge {
   0% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838640197304341/thing1.png");
+    background-image: url("./img/dev/dev1.png");
   }
   6.25% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838641575919616/thing2.png");
+    background-image: url("./img/dev/dev2.png");
   }
   12.5% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838643107889173/thing3.png");
+    background-image: url("./img/dev/dev3.png");
   }
   18.75% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838644717977660/thing4.png");
+    background-image: url("./img/dev/dev4.png");
   }
   25% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838646499901500/thing5.png");
+    background-image: url("./img/dev/dev5.png");
   }
   31.25% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838647398006804/thing6.png");
+    background-image: url("./img/dev/dev6.png");
   }
   37.5% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838648417615903/thing7.png");
+    background-image: url("./img/dev/dev7.png");
   }
   43.75% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838649788497940/thing8.png");
+    background-image: url("./img/dev/dev8.png");
   }
   50% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838650111852544/thing9.png");
+    background-image: url("./img/dev/dev9.png");
   }
   56.25% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838652200353792/thing10.png");
+    background-image: url("./img/dev/dev10.png");
   }
   62.5% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848841593095454780/thing11.png");
+    background-image: url("./img/dev/dev11.png");
   }
   68.75% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838686955012126/thing12.png");
+    background-image: url("./img/dev/dev12.png");
   }
   75% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838692889034752/thing13.png");
+    background-image: url("./img/dev/dev13.png");
   }
   81.25% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838702435139615/thing14.png");
+    background-image: url("./img/dev/dev14.png");
   }
   87.5% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838706067537951/thing15.png");
+    background-image: url("./img/dev/dev15.png");
   }
   93.75% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838717279174666/thing16.png");
+    background-image: url("./img/dev/dev16.png");
   }
   100% {
-    background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838640197304341/thing1.png");
+    background-image: url("./img/dev/dev1.png");
   }
 }
 @keyframes dance {
