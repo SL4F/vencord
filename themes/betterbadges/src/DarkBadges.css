@@ -1,55 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap");
 @keyframes devbadge {
   0% {
-    background-image: url("./img/dev/dev1.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev1.png");
   }
   6.25% {
-    background-image: url("./img/dev/dev2.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev2.png");
   }
   12.5% {
-    background-image: url("./img/dev/dev3.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev3.png");
   }
   18.75% {
-    background-image: url("./img/dev/dev4.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev4.png");
   }
   25% {
-    background-image: url("./img/dev/dev5.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev5.png");
   }
   31.25% {
-    background-image: url("./img/dev/dev6.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev6.png");
   }
   37.5% {
-    background-image: url("./img/dev/dev7.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev7.png");
   }
   43.75% {
-    background-image: url("./img/dev/dev8.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev8.png");
   }
   50% {
-    background-image: url("./img/dev/dev9.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev9.png");
   }
   56.25% {
-    background-image: url("./img/dev/dev10.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev10.png");
   }
   62.5% {
-    background-image: url("./img/dev/dev11.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev11.png");
   }
   68.75% {
-    background-image: url("./img/dev/dev12.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev12.png");
   }
   75% {
-    background-image: url("./img/dev/dev13.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev13.png");
   }
   81.25% {
-    background-image: url("./img/dev/dev14.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev14.png");
   }
   87.5% {
-    background-image: url("./img/dev/dev15.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev15.png");
   }
   93.75% {
-    background-image: url("./img/dev/dev16.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev16.png");
   }
   100% {
-    background-image: url("./img/dev/dev1.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev1.png");
   }
 }
 @keyframes dance {
@@ -88,7 +88,7 @@ img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
   background-image: url("https://discord.com/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg");
 }
 div:hover > img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
-  background-image: url("./img/hype/events.gif");
+  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/events.gif");
   transform: translateY(-1.5px);
   transition-delay: 0s;
 }
@@ -104,17 +104,17 @@ div[aria-label*="HypeSquad"]:hover > img {
 }
 div:hover > img[src="/assets/efcc751513ec434ea4275ecda4f61136.svg"] {
   --hypesquad-colour: rgb(156, 132, 239);
-  background-image: url("./img/hype/bravery.png");
+  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/bravery.png");
   transform: scale(1.35);
 }
 div:hover > img[src="/assets/ec8e92568a7c8f19a052ef42f862ff18.svg"] {
   --hypesquad-colour: rgb(244, 123, 103);
-  background-image: url("./img/hype/brilliance.png");
+  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/brilliance.png");
   transform: scale(1.35);
 }
 div:hover > img[src="/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg"] {
   --hypesquad-colour: rgb(69, 221, 192);
-  background-image: url("./img/hype/balance.png");
+  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/balance.png");
   transform: scale(1.35);
 }
 img[src="/assets/efcc751513ec434ea4275ecda4f61136.svg"] {
@@ -145,7 +145,7 @@ div:hover > img[src="/assets/e07c08cdc72bcc78b69c76d2c7ceb344.svg"],
 div:hover > img[src="/assets/c7f26927db5e7806790f4e968038630a.svg"],
 div:hover > img[src="/assets/c6d88d1d12afe03bdc4ebb747f8d196b.svg"],
 div:hover > img[src="/assets/d96ed283b74de75692487b7499fb8d09.svg"] {
-  content: url("./img/nitro/booster.gif");
+  content: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/nitro/booster.gif");
 }
 img[src="/assets/ca18353be0e57a2b3b3132fa1c08d6b4.svg"],
 img[src="/assets/22f99ed6e34eaca48950254c70f8fe8d.svg"],
@@ -194,7 +194,7 @@ div:hover > img[src="/assets/4441e07fe0f46b3cb41b79366236fca6.svg"] {
 }
 /* Partner badge */
 img[src="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"] {
-  background-image: url("./img/partner/partner.png");
+  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/partner/partner.png");
   transition-delay: 2s;
   padding: var(--badge-size) var(--badge-size) 0px 0px;
   overflow: hidden;
@@ -204,7 +204,7 @@ img[src="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"] {
   transform: translateY(2.4px);
 }
 div:hover > img[src="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"] {
-  background-image: url("./img/partner/partner.gif");
+  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/partner/partner.gif");
   transition-delay: 0s;
 }
 /* Certified moderator badge */
@@ -236,7 +236,7 @@ img[src="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
 div:hover > img[src="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
   transform: scale(1.1);
   filter: brightness(0.8) contrast(1.5) saturate(0.975);
-  background-image: url("./img/staff/staff.png");
+  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/staff/staff.png");
 }
 .warningCircleIcon-3R0DL,
 .warningCircleIcon-mFju_mw {
@@ -267,22 +267,22 @@ a[href*="https://support.discord.com"]:after
 }
 @keyframes initialize {
   0% {
-    background: url("./img/partner/partner.gif");
+    background: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/partner/partner.gif");
   }
   20% {
-    background: url("./img/nitro/booster.gif");
+    background: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/nitro/booster.gif");
   }
   40% {
-    background: url("./img/hype/events.gif");
+    background: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/events.gif");
   }
   60% {
-    background: url("./img/hype/bravery.png");
+    background: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/bravery.png");
   }
   80% {
-    background: url("./img/hype/brilliance.png");
+    background: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/brilliance.png");
   }
   100% {
-    background: url("./img/hype/balance.png");
+    background: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/balance.png");
   }
 }
 .toolbar-3_r2xA::after {
@@ -394,55 +394,55 @@ a[href*="https://support.discord.com"]:after
 @import url("https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap");
 @keyframes devbadge {
   0% {
-    background-image: url("./img/dev/dev1.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev1.png");
   }
   6.25% {
-    background-image: url("./img/dev/dev2.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev2.png");
   }
   12.5% {
-    background-image: url("./img/dev/dev3.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev3.png");
   }
   18.75% {
-    background-image: url("./img/dev/dev4.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev4.png");
   }
   25% {
-    background-image: url("./img/dev/dev5.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev5.png");
   }
   31.25% {
-    background-image: url("./img/dev/dev6.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev6.png");
   }
   37.5% {
-    background-image: url("./img/dev/dev7.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev7.png");
   }
   43.75% {
-    background-image: url("./img/dev/dev8.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev8.png");
   }
   50% {
-    background-image: url("./img/dev/dev9.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev9.png");
   }
   56.25% {
-    background-image: url("./img/dev/dev10.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev10.png");
   }
   62.5% {
-    background-image: url("./img/dev/dev11.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev11.png");
   }
   68.75% {
-    background-image: url("./img/dev/dev12.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev12.png");
   }
   75% {
-    background-image: url("./img/dev/dev13.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev13.png");
   }
   81.25% {
-    background-image: url("./img/dev/dev14.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev14.png");
   }
   87.5% {
-    background-image: url("./img/dev/dev15.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev15.png");
   }
   93.75% {
-    background-image: url("./img/dev/dev16.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev16.png");
   }
   100% {
-    background-image: url("./img/dev/dev1.png");
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/dev/dev1.png");
   }
 }
 @keyframes dance {
@@ -481,7 +481,7 @@ img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"] {
   background-image: url("https://discord.com/assets/f5354673c9cff61c1dcc70081ef774e5.svg");
 }
 div:hover > img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"] {
-  background-image: url("./img/hype/events.gif");
+  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/events.gif");
   transform: translateY(-1.5px);
   transition-delay: 0s;
 }
@@ -497,17 +497,17 @@ div[aria-label*="HypeSquad"]:hover > img {
 }
 div:hover > img[src="/assets/995ecfdbdf94ad84dd4d802c104e4630.svg"] {
   --hypesquad-colour: rgb(156, 132, 239);
-  background-image: url("./img/hype/bravery.png");
+  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/bravery.png");
   transform: scale(1.35);
 }
 div:hover > img[src="/assets/473dadec13ab7e90e209cc60fccb31c5.svg"] {
   --hypesquad-colour: rgb(244, 123, 103);
-  background-image: url("./img/hype/brilliance.png");
+  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/brilliance.png");
   transform: scale(1.35);
 }
 div:hover > img[src="/assets/58f11abcf3c13812bff969baaeb84d82.svg"] {
   --hypesquad-colour: rgb(69, 221, 192);
-  background-image: url("./img/hype/balance.png");
+  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/balance.png");
   transform: scale(1.35);
 }
 img[src="/assets/995ecfdbdf94ad84dd4d802c104e4630.svg"] {
@@ -538,7 +538,7 @@ div:hover > img[src="/assets/556158300f0dca136d3c902586ff1316.svg"],
 div:hover > img[src="/assets/ba38c1c57dfccb94127e53b7ac502a90.svg"],
 div:hover > img[src="/assets/42ecb902decfc8e83a7446a0904b1e18.svg"],
 div:hover > img[src="/assets/496aa1174817ec391612f745dc8e0725.svg"] {
-  content: url("./img/nitro/booster.gif");
+  content: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/nitro/booster.gif");
 }
 img[src="/assets/1d3c9e1123aee11a325af328609d1274.svg"],
 img[src="/assets/dd50d32cf4fee241b2fa022d8c0435ae.svg"],
@@ -586,7 +586,7 @@ div:hover > img[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"] {
 }
 /* Partner badge */
 img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"] {
-  background-image: url("./img/partner/partner.png");
+  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/partner/partner.png");
   transition-delay: 2s;
   padding: var(--badge-size) var(--badge-size) 0px 0px;
   overflow: hidden;
@@ -596,7 +596,7 @@ img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"] {
   transform: translateY(2.4px);
 }
 div:hover > img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"] {
-  background-image: url("./img/partner/partner.gif");
+  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/partner/partner.gif");
   transition-delay: 0s;
 }
 /* Certified moderator badge */
@@ -628,7 +628,7 @@ img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"] {
 div:hover > img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"] {
   transform: scale(1.1);
   filter: brightness(0.8) contrast(1.5) saturate(0.975);
-  background-image: url("./img/staff/staff.png");
+  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/staff/staff.png");
 }
 .warningCircleIcon-3R0DL,
 .warningCircleIcon-mFju_mw {
@@ -659,22 +659,22 @@ a[href*="https://support.discord.com"]:after
 }
 @keyframes initialize {
   0% {
-    background: url("./img/partner/partner.gif");
+    background: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/partner/partner.gif");
   }
   20% {
-    background: url("./img/nitro/booster.gif");
+    background: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/nitro/booster.gif");
   }
   40% {
-    background: url("./img/hype/events.gif");
+    background: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/events.gif");
   }
   60% {
-    background: url("./img/hype/bravery.png");
+    background: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/bravery.png");
   }
   80% {
-    background: url("./img/hype/brilliance.png");
+    background: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/brilliance.png");
   }
   100% {
-    background: url("./img/hype/balance.png");
+    background: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/balance.png");
   }
 }
 .toolbar-3_r2xA::after {
