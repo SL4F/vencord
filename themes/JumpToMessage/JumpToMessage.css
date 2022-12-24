@@ -1,0 +1,14 @@
+/* Replaces Message Links with "Jump to Message" */
+[title^="https://discord.com/channels/"],
+[title^="https://ptb.discord.com/channels/"],
+[title^="https://canary.discord.com/channels/"] {
+    line-height:0;
+    font-size:0;
+}
+[title^="https://discord.com/channels/"]::before,
+[title^="https://ptb.discord.com/channels/"]::before,
+[title^="https://canary.discord.com/channels/"]::before {
+  content: "Jump to Message";
+  font-size: 16px;
+  font-weight: 500;
+}

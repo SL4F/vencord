@@ -22,7 +22,7 @@
 */
 
   /* Hide Nitro */
-  @import url(https://sl4f.github.io/vencord/themes/hidenitro/hidenitro.css);
+@import url(https://sl4f.github.io/vencord/themes/hidenitro/hidenitro.css);
 
   /* Hide Thread Suggestions */
 @import url(https://sl4f.github.io/vencord/themes/hidethreadsuggestions/hidethreadsuggestions.css);
@@ -39,6 +39,29 @@
   /* Settings Model */
 @import url(https://sl4f.github.io/vencord/themes/SettingsModal/src/SettingsModal.css);
 
+  /* Jump To Message */
+@import url(https://sl4f.github.io/vencord/themes/JumpToMessage/JumpToMessage.css);
+
+  /* GroupLabels */
+@import url(https://sl4f.github.io/vencord/themes/GroupLabels/GroupLabels.css);
+
+  /* Minified Members Search */
+@import url(https://sl4f.github.io/vencord/themes/MinifiedMembersSearch/MinifiedMembersSearch.css);
+
+  /* Theme Warnings */
+@import url(https://sl4f.github.io/vencord/themes/ThemeWarnings/ThemeWarnings.css);
+
+  /* USRBG Support */
+@import url(https://sl4f.github.io/vencord/themes/USRBGSupport/USRBGSupport.css);
+
+  /* Modern Channel Indicators */
+@import url(https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css);
+
+  /* Radial Status */
+@import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
+
+  /* Better Quotes */
+@import url(https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterQuotes/quotes.css);
 
 :root {
   /* ---------- Discord Recolour ---------- */
@@ -76,7 +99,53 @@
   --badges-everywhere-size: 15px;                /*    Badges Everywhere                 -     default:    15px        */
 
   /* ---------- SettingsModal ---------- */
-    --settingsmodalbackground:     transparent;            /* default                 -     transparent        (lowest bg color of changed windows, change it in case another theme turns them transparent)    */
-    --settingsmodalwidth:         1000px;                    /* default                 -     960px            (width of the settings modal, px/vw)                                                            */
-    --settingsmodalheight:         90vh;                    /* default                 -     80vh            (height of the settings modal, px/vh)                                                            */
+  --settingsmodalbackground:     transparent;            /* default                 -     transparent        (lowest bg color of changed windows, change it in case another theme turns them transparent)    */
+  --settingsmodalwidth:         1000px;                    /* default                 -     960px            (width of the settings modal, px/vw)                                                            */
+  --settingsmodalheight:         90vh;                    /* default                 -     80vh            (height of the settings modal, px/vh)                                                            */
+
+  /* --- Channel Indicator --- */
+  --indicator-hovered: rgba(79, 84, 92, 0.25);
+  --indicator-rounding: 0;
+  --indicator-border-info: 2px solid;
+
+  --indicator-selected: 112, 135, 215;
+  --indicator-selected-border: rgba(var(--indicator-selected));
+  --indicator-selected-background: rgba(var(--indicator-selected), 0.1);
+  --indicator-selected-hover: rgba(var(--indicator-selected), 0.18);
+
+  --indicator-unread: 255, 255, 255;
+  --indicator-unread-border: rgba(var(--indicator-unread), 0.6);
+  --indicator-unread-background: rgba(var(--indicator-unread), 0.01);
+
+  --indicator-connected: 67, 181, 129;
+  --indicator-connected-border: rgba(var(--indicator-connected));
+  --indicator-connected-background: rgba(var(--indicator-connected), 0.1);
+  --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
+
+  /* --- Radial Status --- */
+  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+
+  --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+
+  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+
+  --rs-online-color: #43b581; /* Colour for online status */
+  --rs-idle-color: #faa61a; /* Colour for idle status */
+  --rs-dnd-color: #f04747; /* Colour for dnd status */
+  --rs-offline-color: #636b75; /* Colour for offline status */
+  --rs-streaming-color: #643da7; /* Colour for streaming status */
+  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+  --container-color: var(--background-floating);
+
+  /* --- Better Quotes --- */
+  --quotes-background-border: var(--background-secondary);
+  --quotes-divider: var(--background-accent); 
+  --quotes-text: #fff;
 }

@@ -1,0 +1,40 @@
+/* Minified Members and Search */
+.members-3WRCEx,
+.membersWrap-3NUR2t,
+.searchResultsWrap-5RVOkx {
+  z-index: 3;
+  border-radius: 18px 0px 0px 18px !important;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  width: 62px;
+  min-width: 60px;
+  transition-property: width, min-width;
+  transition-duration: 600ms;
+}
+.members-3WRCEx:hover,
+.membersWrap-3NUR2t:hover {
+  width: 240px;
+  min-width: 240px;
+}
+.searchResultsWrap-5RVOkx:hover {
+  width: 418px;
+  min-width: 418px;
+}
+.searchResultGroup-1lU_-i {
+  width: 394px;
+}
+.membersWrap-3NUR2t,
+.searchResultsWrap-5RVOkx {
+  position: absolute;
+  right: 0;
+  height: 99%;
+  box-shadow: none;
+}
+.chatContent-3KubbW {
+  min-width: calc(100% - 60px);
+  max-width: calc(100% - 60px);
+}
+.chatContent-3KubbW[aria-label=" (channel)"] {
+  min-width: 100%;
+  max-width: 100%;
+}
