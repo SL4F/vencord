@@ -55,7 +55,7 @@
 @import url(https://sl4f.github.io/vencord/themes/USRBGSupport/USRBGSupport.css);
 
   /* Modern Channel Indicators */
-@import url(https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css);
+@import url(https://discord-extensions.github.io/modern-indicators/src/source.css);
 
   /* Radial Status */
 @import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
@@ -141,11 +141,50 @@
   --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
   --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
 
-  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+  --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
   --container-color: var(--background-floating);
 
   /* --- Better Quotes --- */
   --quotes-background-border: var(--background-secondary);
   --quotes-divider: var(--background-accent); 
   --quotes-text: #fff;
+
+  /* Modern Channel Indicators */
+  --indicator-border-size: 2px;
+  --indicator-border-style: solid;
+  --indicator-rounding: 0;
+
+  /* Advanced Coloring */
+  --item-selected-icon: hsl(var(--indicator-selected));
+  --item-selected-indicator: hsl(var(--indicator-selected));
+  --item-selected-background: hsla(var(--indicator-selected), 0.1);
+  --item-selected-background-hover: hsla(var(--indicator-selected), 0.2);
+
+  --item-connected-icon: hsl(var(--indicator-connected));
+  --item-connected-indicator: hsl(var(--indicator-connected));
+  --item-connected-background: hsl(var(--indicator-connected), 0.1);
+  --item-connected-background-hover: hsl(var(--indicator-connected), 0.2);
+
+  --item-unread-icon: hsl(var(--indicator-unread));
+  --item-unread-indicator: hsl(var(--indicator-unread), 0.5);
+  --item-unread-background: hsl(var(--indicator-unread), 0.025);
+  --item-unread-background-hover: hsl(var(--indicator-unread), 0.045);
+}
+
+  /* || Accent Colors
+   * Accent colors use HSL to remain compatible with Discord's built in saturation accessibility feature.
+   */
+.theme-light {
+    --indicator-unread: 0, calc(var(--saturation-factor, 1) * 0%), 0%;
+    --indicator-selected: 235, calc(var(--saturation-factor, 1) * 86%), 65%;
+    --indicator-connected: 139, calc(var(--saturation-factor, 1) * 47.6%), 48.6%;
+    --indicator-hovered: hsla(var(--indicator-unread), 0.08);
+    --text-active: black;
+}
+.theme-dark {
+    --indicator-unread: 0, calc(var(--saturation-factor, 1) * 0%), 100%;
+    --indicator-selected: 235, calc(var(--saturation-factor, 1) * 86%), 65%;
+    --indicator-connected: 139, calc(var(--saturation-factor, 1) * 86%), 65%;
+    --indicator-hovered: hsla(var(--indicator-unread), 0.045);
+    --text-active: white;
 }
