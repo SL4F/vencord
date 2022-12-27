@@ -188,3 +188,8 @@
     --indicator-hovered: hsla(var(--indicator-unread), 0.045);
     --text-active: white;
 }
+
+#app-mount .info-3pQQBb .line-18uChy:last-child::after {
+  content: "Ultimate Themer v1.0.2";
+  display: block;
+}
