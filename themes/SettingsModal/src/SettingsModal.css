@@ -1,11 +1,5 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/ThemeDevBadge.css);
 
-:root {
-	--settingsmodalbackground: transparent;
-	--settingsmodalwidth: 960px;
-	--settingsmodalheight: 80vh;
-}
-
 #app-mount .baseLayer-W6S8cY {
 	opacity: 1 !important;
 	transform: unset !important;
