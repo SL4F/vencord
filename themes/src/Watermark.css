@@ -1,40 +1,9 @@
-html:only-child > head + body > div#app-mount.appMount-2yBXZl > div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUESM.layers-1YQhyW > div.layer-86YKbF.baseLayer-W6S8cY + div.layer-86YKbF > div.standardSidebarView-E9Pc3j > div.sidebarRegion-1VBisG > div.sidebarRegionScroller-FXiQOh.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > nav.sidebar-nqHbhN > div.side-2ur1Qk > div.info-3pQQBb {
-	position: relative !important;
-}
-html:only-child > head + body > div#app-mount.appMount-2yBXZl > div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUESM.layers-1YQhyW > div.layer-86YKbF.baseLayer-W6S8cY + div.layer-86YKbF > div.standardSidebarView-E9Pc3j > div.sidebarRegion-1VBisG > div.sidebarRegionScroller-FXiQOh.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > nav.sidebar-nqHbhN > div.side-2ur1Qk > div.info-3pQQBb::after {
-	content: "Theme Created By" !important;
-	font-size: 12px !important;
-	color: var(--text-muted) !important;
-	cursor: pointer !important;
-	display: inline !important;
-	opacity: 1 !important;
-	padding: 0 !important;
-	margin: 0 !important;
-	cursor: text !important;
-	visibility: visible !important;
-	position: relative !important;
-	top: unset !important;
-	left: unset !important;
-	bottom: unset !important;
-	right: unset !important;
-	transform: unset !important;
-	animation: unset !important;
-}
-html:only-child > head + body > div#app-mount.appMount-2yBXZl > div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUESM.layers-1YQhyW > div.layer-86YKbF.baseLayer-W6S8cY + div.layer-86YKbF > div.standardSidebarView-E9Pc3j > div.sidebarRegion-1VBisG > div.sidebarRegionScroller-FXiQOh.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > nav.sidebar-nqHbhN > div.side-2ur1Qk > div.info-3pQQBb::before {
-	content: "SL4F" !important;
-	font-size: 12px !important;
-	color: rgb(var(--accentcolor)) !important;
-	display: inline !important;
+/* watermark */
+#app-mount .info-3pQQBb .line-18uChy:first-child:before {
+    content: "Theme by SL4F" !important;
+	display: flex !important;
 	opacity: 1 !important;
 	padding: 0 !important;
 	margin: 0 !important;
 	cursor: pointer !important;
-	visibility: visible !important;
-	position: absolute !important;
-	top: unset !important;
-	left: 106px !important;
-	bottom: 9px !important;
-	right: unset !important;
-	transform: unset !important;
-	animation: unset !important;
 }
