@@ -1,0 +1,28 @@
+/* reverts unread message and mention indicators */
+.bar-wDIGjg {
+    width: 208px;
+    background-color: var(--background-accent);
+}
+.barText-1eIsLx {
+    color: var(--status-positive-text) !important;
+}
+.bar-wDIGjg div:not(.mentionsBar-DpLHCy) {
+    text-transform: uppercase;
+    margin: auto;
+}
+.bar-wDIGjg.mentionsBar-DpLHCy .barText-1eIsLx {
+    content: " " !important;
+    font-size: 0px;
+    padding: 0px;
+}
+.bar-wDIGjg.mentionsBar-DpLHCy .barText-1eIsLx::after {
+    content: "New Mentions";
+    font-size: 12px !important;
+}
+.bar-wDIGjg.mentionsBar-DpLHCy {
+    background: var(--status-danger) !important;
+    height: 16px !important;
+}
+.bar-wDIGjg svg {
+    display: none;
+}

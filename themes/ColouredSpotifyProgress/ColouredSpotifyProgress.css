@@ -1,0 +1,4 @@
+/* Coloured spotify progress bar */
+#vc-spotify-progress-bar [class^=barFill-] {
+    background: var(--spotify);
+}

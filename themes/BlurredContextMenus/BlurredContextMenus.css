@@ -1,0 +1,45 @@
+/* blurred context menus */
+[class^=menu-],[class^=submenu-] {
+    background: none;
+  }
+  [class^=submenu-] {
+    margin: 0 -8px;
+  }
+  .theme-dark [class^=menu-]::after,.theme-dark [class^=submenu-]::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: 5px;
+    background: rgba(10, 10, 10, 0.7);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+  }
+  .theme-light [class^=menu-]::after,.theme-light [class^=submenu-]::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: 5px;
+    background: rgba(245, 245, 245, 0.7);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+  }
+  [class^=backdrop-] ~ .theme-light[class*=layer-]>[class^=menu-] {
+    background: rgba(245, 245, 245, 0.7);
+  }
+  [class^=backdrop-] ~ .theme-dark[class*=layer-]>[class^=menu-] {
+    background: rgba(10, 10, 10, 0.7);
+  }
+  [class^=backdrop-] ~ [class*=layer-]>[class^=menu-]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+  }
+  .section-3FmfOT, .divider-1tWBgZ, .scroller-1jBQYo {
+    z-index: 2;
+  }
