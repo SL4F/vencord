@@ -109,7 +109,7 @@ a:hover > img[src="/assets/995ecfdbdf94ad84dd4d802c104e4630.svg"] {
   background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/bravery.png");
   transform: scale(1.35);
 }
-a:hover > img[src="https://cdn.discordapp.com/badge-icons/011940fd013da3f7fb926e4a1cd2e618.png"] {
+a:hover > img[src="/assets/473dadec13ab7e90e209cc60fccb31c5.svg"] {
   --hypesquad-colour: rgb(244, 123, 103);
   background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/brilliance.png");
   transform: scale(1.35);
@@ -392,7 +392,7 @@ a[href*="https://support.discord.com"]:after
 .animatorRight-3o3AYV .translate-2vghI- .didRender-2dwLEv div[aria-label="sl4f"] .userText-1_v2Cq::after {
   content: "Better Badges Dev";
   font-size: 13px;
-  -webkit-text-fill-color: rgb(195, 0, 0) !important;
+  -webkit-text-fill-color: rgb(195, 0, 0);
   font-family: "Slabo 13px", sans-serif;
-  font-weight: 500 !important;
+  font-weight: 500;
 }
