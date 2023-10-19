@@ -76,7 +76,8 @@
   justify-content: flex-end;
   margin: var(--badge-margin);
 }
-.anchorUnderlineOnHover-wiZFZ_ > img {
+
+.anchor-anchor-1X4H4q.anchorUnderlineOnHover-wiZFZ_ > img {
   height: var(--badge-size) !important;
   width: var(--badge-size) !important;
 }
@@ -88,32 +89,32 @@ img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"] {
   box-sizing: border-box;
   background-image: url("https://discord.com/assets/f5354673c9cff61c1dcc70081ef774e5.svg");
 }
-div:hover > img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"] {
+a:hover > img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"] {
   background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/events.gif");
   transform: translateY(-1.5px);
   transition-delay: 0s;
 }
-div[aria-label*="HypeSquad"] > img {
+a[aria-label*="HypeSquad"] > img {
   transition-duration: 0.4s;
   transform: scale(1.15);
   padding: var(--badge-size) var(--badge-size) 0px 0px;
   overflow: hidden;
   box-sizing: border-box;
 }
-div[aria-label*="HypeSquad"]:hover > img {
+a[aria-label*="HypeSquad"]:hover > img {
   filter: drop-shadow(0px 0px 2px var(--hypesquad-colour));
 }
-div:hover > img[src="/assets/995ecfdbdf94ad84dd4d802c104e4630.svg"] {
+a:hover > img[src="/assets/995ecfdbdf94ad84dd4d802c104e4630.svg"] {
   --hypesquad-colour: rgb(156, 132, 239);
   background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/bravery.png");
   transform: scale(1.35);
 }
-div:hover > img[src="https://cdn.discordapp.com/badge-icons/011940fd013da3f7fb926e4a1cd2e618.png"] {
+a:hover > img[src="/assets/473dadec13ab7e90e209cc60fccb31c5.svg"] {
   --hypesquad-colour: rgb(244, 123, 103);
   background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/brilliance.png");
   transform: scale(1.35);
 }
-div:hover > img[src="/assets/58f11abcf3c13812bff969baaeb84d82.svg"] {
+a:hover > img[src="/assets/58f11abcf3c13812bff969baaeb84d82.svg"] {
   --hypesquad-colour: rgb(69, 221, 192);
   background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/balance.png");
   transform: scale(1.35);
@@ -132,20 +133,20 @@ img[src="/assets/e04ce699dcd2fd50d352a384511687a9.svg"] {
   transition-duration: 1s;
   filter: contrast(1) hue-rotate(0deg);
 }
-div:hover > img[src="/assets/e04ce699dcd2fd50d352a384511687a9.svg"] {
+a:hover > img[src="/assets/e04ce699dcd2fd50d352a384511687a9.svg"] {
   transform: scale(1.2);
   filter: contrast(1.2) hue-rotate(-390deg);
 }
 /* Booster badges */
-div:hover > img[src="/assets/1d3c9e1123aee11a325af328609d1274.svg"],
-div:hover > img[src="/assets/dd50d32cf4fee241b2fa022d8c0435ae.svg"],
-div:hover > img[src="/assets/7294cc730410a1caeceeca736f800b42.svg"],
-div:hover > img[src="/assets/ce54a4f8c0e133a6f2d60336e7acac7d.svg"],
-div:hover > img[src="/assets/c0c9db2de008e61a1a720581ca175fa1.svg"],
-div:hover > img[src="/assets/556158300f0dca136d3c902586ff1316.svg"],
-div:hover > img[src="/assets/ba38c1c57dfccb94127e53b7ac502a90.svg"],
-div:hover > img[src="/assets/42ecb902decfc8e83a7446a0904b1e18.svg"],
-div:hover > img[src="/assets/496aa1174817ec391612f745dc8e0725.svg"] {
+a:hover > img[src="/assets/1d3c9e1123aee11a325af328609d1274.svg"],
+a:hover > img[src="/assets/dd50d32cf4fee241b2fa022d8c0435ae.svg"],
+a:hover > img[src="/assets/7294cc730410a1caeceeca736f800b42.svg"],
+a:hover > img[src="/assets/ce54a4f8c0e133a6f2d60336e7acac7d.svg"],
+a:hover > img[src="/assets/c0c9db2de008e61a1a720581ca175fa1.svg"],
+a:hover > img[src="/assets/556158300f0dca136d3c902586ff1316.svg"],
+a:hover > img[src="/assets/ba38c1c57dfccb94127e53b7ac502a90.svg"],
+a:hover > img[src="/assets/42ecb902decfc8e83a7446a0904b1e18.svg"],
+a:hover > img[src="/assets/496aa1174817ec391612f745dc8e0725.svg"] {
   content: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/nitro/booster.gif");
 }
 img[src="/assets/1d3c9e1123aee11a325af328609d1274.svg"],
@@ -169,13 +170,13 @@ img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"] {
   background-image: url("https://discord.com/assets/d66ce47c4ab7817190af9544f97e98cc.svg");
   transition-duration: 0.5s;
 }
-div:hover > img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"] {
+a:hover > img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"] {
   transform: scale(1.16);
 }
-div[aria-label*="Early Supporter"]:hover::after {
+a[aria-label*="Early Supporter"]:hover::after {
   transform: scale(1) translate(12.5px, -11px);
 }
-div[aria-label*="Early Supporter"]::after {
+a[aria-label*="Early Supporter"]::after {
   background-color: transparent;
   content: "❤";
   color: #dd504d;
@@ -186,14 +187,14 @@ div[aria-label*="Early Supporter"]::after {
   transition-duration: 0.5s;
 }
 /* Verified dev */
-div:hover > img[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"] {
+a:hover > img[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"] {
   animation: devbadge 5s infinite normal linear;
   padding: var(--badge-size) var(--badge-size) 0px 0px;
   overflow: hidden;
   box-sizing: border-box;
 }
 /* Partner badge */
-img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"] {
+a[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"] {
   background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/partner/partner.png");
   transition-delay: 2s;
   padding: var(--badge-size) var(--badge-size) 0px 0px;
@@ -203,7 +204,7 @@ img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"] {
   zoom: 90%;
   transform: translateY(2.4px);
 }
-div:hover > img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"] {
+a:hover > img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"] {
   background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/partner/partner.gif");
   transition-delay: 0s;
 }
@@ -212,7 +213,7 @@ img[src="/assets/2af69d4f9d2ff38a7cf76fab0907ea7a.svg"] {
   transition-duration: 1.4s;
   transition-delay: 0.1s;
 }
-div:hover > img[src="/assets/2af69d4f9d2ff38a7cf76fab0907ea7a.svg"] {
+a:hover > img[src="/assets/2af69d4f9d2ff38a7cf76fab0907ea7a.svg"] {
   transform: rotateY(540deg) scale(1.2);
   transition-delay: 0s;
 }
@@ -221,8 +222,8 @@ img[src="/assets/5c6bb5c4640972078fc993f1b5f503ce.svg"],
 img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] {
   transition-duration: 0.5s;
 }
-div:hover > img[src="/assets/5c6bb5c4640972078fc993f1b5f503ce.svg"],
-div:hover > img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] {
+a:hover > img[src="/assets/5c6bb5c4640972078fc993f1b5f503ce.svg"],
+a:hover > img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] {
   transform: rotateY(180deg) rotate(-90deg);
 }
 /* Staff badge */
@@ -233,7 +234,7 @@ img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"] {
   box-sizing: border-box;
   background-image: url("https://discord.com/assets/f62be1ec9bdd82d3d77158ad81830e68.svg");
 }
-div:hover > img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"] {
+a:hover > img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"] {
   transform: scale(1.1);
   filter: brightness(0.8) contrast(1.5) saturate(0.975);
   background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/staff/staff.png");
@@ -388,14 +389,10 @@ a[href*="https://support.discord.com"]:after
 }
 
 /* coolkid2 */
-.userPopout-2j1gM4[aria-label="sl4f"] .headerText-1-WmDq::after {
+.animatorRight-3o3AYV .translate-2vghI- .didRender-2dwLEv div[aria-label="sl4f"] .userText-1_v2Cq::after {
   content: "Better Badges Dev";
   font-size: 13px;
-  -webkit-text-fill-color: rgb(195, 0, 0);
+  -webkit-text-fill-color: rgb(195, 0, 0) !important;
   font-family: "Slabo 13px", sans-serif;
-  font-weight: 500;
-}
-.userPopout-2j1gM4[aria-label="sl4f"]
-  .headerTagDiscriminatorNoNickname-dfcvHa:after {
-  content: "" !important;
+  font-weight: 500 !important;
 }
