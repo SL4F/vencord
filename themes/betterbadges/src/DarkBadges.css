@@ -76,7 +76,7 @@
   justify-content: flex-end;
   margin: var(--badge-margin);
 }
-.clickable-1knRMS > img {
+.anchorUnderlineOnHover-wiZFZ_ > img {
   height: var(--badge-size) !important;
   width: var(--badge-size) !important;
 }
@@ -108,7 +108,7 @@ div:hover > img[src="/assets/995ecfdbdf94ad84dd4d802c104e4630.svg"] {
   background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/bravery.png");
   transform: scale(1.35);
 }
-div:hover > img[src="/assets/473dadec13ab7e90e209cc60fccb31c5.svg"] {
+div:hover > img[src="/badge-icons/011940fd013da3f7fb926e4a1cd2e618.png"] {
   --hypesquad-colour: rgb(244, 123, 103);
   background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/brilliance.png");
   transform: scale(1.35);
