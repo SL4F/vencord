@@ -108,7 +108,7 @@ div:hover > img[src="/assets/995ecfdbdf94ad84dd4d802c104e4630.svg"] {
   background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/bravery.png");
   transform: scale(1.35);
 }
-div:hover > img[src="/badge-icons/011940fd013da3f7fb926e4a1cd2e618.png"] {
+div:hover > img[src="https://cdn.discordapp.com/badge-icons/011940fd013da3f7fb926e4a1cd2e618.png"] {
   --hypesquad-colour: rgb(244, 123, 103);
   background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/brilliance.png");
   transform: scale(1.35);
