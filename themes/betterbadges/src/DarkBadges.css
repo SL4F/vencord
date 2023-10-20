@@ -200,12 +200,10 @@ a > img[src="https://cdn.discordapp.com/badge-icons/6bdc42827a38498929a4920da126
   padding: var(--badge-size) var(--badge-size) 0px 0px;
   overflow: hidden;
   box-sizing: border-box;
+  background-image: url("https://cdn.discordapp.com/badge-icons/6bdc42827a38498929a4920da12695d9.png");
 }
 a:hover > img[src="https://cdn.discordapp.com/badge-icons/6bdc42827a38498929a4920da12695d9.png"] {
-  filter: drop-shadow(0px 0px 2px var(--activedev-colour));
-}
-a:hover > img[src="https://cdn.discordapp.com/badge-icons/6bdc42827a38498929a4920da12695d9.png"] {
-  --activedev-colour: rgb(46, 169, 103);
+  filter: drop-shadow(0px 0px 2px rgb(46, 169, 103));
   background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/activedev/activedev.png");
   transform: scale(1.35);
 }
