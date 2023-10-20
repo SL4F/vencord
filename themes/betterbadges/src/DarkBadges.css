@@ -144,7 +144,7 @@ a:hover > img[src="https://cdn.discordapp.com/badge-icons/72bed924410c304dbe3d00
 a:hover > img[src="https://cdn.discordapp.com/badge-icons/996b3e870e8a22ce519b3a50e6bdd52f.png"],
 a:hover > img[src="https://cdn.discordapp.com/badge-icons/991c9f39ee33d7537d9f408c3e53141e.png"],
 a:hover > img[src="https://cdn.discordapp.com/badge-icons/cb3ae83c15e970e8f3d410bc62cb8b99.png"],
-a:hover > img[src="/assets/ba38c1c57dfccb94127e53b7ac502a90.svg"],
+a:hover > img[src="https://cdn.discordapp.com/badge-icons/7142225d31238f6387d9f09efaa02759.png"],
 a:hover > img[src="https://cdn.discordapp.com/badge-icons/ec92202290b48d0879b7413d2dde3bab.png"],
 a:hover > img[src="https://cdn.discordapp.com/badge-icons/df199d2050d3ed4ebf84d64ae83989f8.png"] {
   content: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/nitro/booster.gif");
@@ -155,7 +155,7 @@ img[src="https://cdn.discordapp.com/badge-icons/72bed924410c304dbe3d00a6e593ff59
 img[src="https://cdn.discordapp.com/badge-icons/996b3e870e8a22ce519b3a50e6bdd52f.png"],
 img[src="https://cdn.discordapp.com/badge-icons/991c9f39ee33d7537d9f408c3e53141e.png"],
 img[src="https://cdn.discordapp.com/badge-icons/cb3ae83c15e970e8f3d410bc62cb8b99.png"],
-img[src="/assets/ba38c1c57dfccb94127e53b7ac502a90.svg"],
+img[src="https://cdn.discordapp.com/badge-icons/7142225d31238f6387d9f09efaa02759.png"],
 img[src="https://cdn.discordapp.com/badge-icons/ec92202290b48d0879b7413d2dde3bab.png"],
 img[src="https://cdn.discordapp.com/badge-icons/df199d2050d3ed4ebf84d64ae83989f8.png"] {
   height: calc(var(--badge-size) - 2.59px) !important;
