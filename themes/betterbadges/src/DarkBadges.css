@@ -193,6 +193,22 @@ a:hover > img[src="https://cdn.discordapp.com/badge-icons/6df5892e0f35b051f8b61e
   overflow: hidden;
   box-sizing: border-box;
 }
+/* Active dev */
+a > img[src="https://cdn.discordapp.com/badge-icons/6bdc42827a38498929a4920da12695d9.png"] {
+  transition-duration: 0.4s;
+  transform: scale(1.15);
+  padding: var(--badge-size) var(--badge-size) 0px 0px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+a:hover > img[src="https://cdn.discordapp.com/badge-icons/6bdc42827a38498929a4920da12695d9.png"] {
+  filter: drop-shadow(0px 0px 2px var(--activedev-colour));
+}
+a:hover > img[src="https://cdn.discordapp.com/badge-icons/6bdc42827a38498929a4920da12695d9.png"] {
+  --activedev-colour: rgb(46, 169, 103);
+  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/activedev/activedev.png");
+  transform: scale(1.35);
+}
 /* Partner badge */
 a[src="https://cdn.discordapp.com/badge-icons/3f9748e53446a137a052f3454e2de41e.png"] {
   background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/partner/partner.png");
@@ -217,12 +233,21 @@ a:hover > img[src="https://cdn.discordapp.com/badge-icons/fee1624003e2fee35cb398
   transform: rotateY(540deg) scale(1.2);
   transition-delay: 0s;
 }
+/* Original Username badge */
+img[src="https://cdn.discordapp.com/badge-icons/6de6d34650760ba5551a79732e98ed60.png"] {
+  transition-duration: 1.4s;
+  transition-delay: 0.1s;
+}
+a:hover > img[src="https://cdn.discordapp.com/badge-icons/6de6d34650760ba5551a79732e98ed60.png"] {
+  transform: rotateY(540deg) scale(1.2);
+  transition-delay: 0s;
+}
 /* Bug hunter badges */
-img[src="	https://cdn.discordapp.com/badge-icons/848f79194d4be5ff5f81505cbd0ce1e6.png"],
+img[src="https://cdn.discordapp.com/badge-icons/848f79194d4be5ff5f81505cbd0ce1e6.png"],
 img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] {
   transition-duration: 0.5s;
 }
-a:hover > img[src="	https://cdn.discordapp.com/badge-icons/848f79194d4be5ff5f81505cbd0ce1e6.png"],
+a:hover > img[src="https://cdn.discordapp.com/badge-icons/848f79194d4be5ff5f81505cbd0ce1e6.png"],
 a:hover > img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] {
   transform: rotateY(180deg) rotate(-90deg);
 }
@@ -239,6 +264,17 @@ a:hover > img[src="https://cdn.discordapp.com/badge-icons/5e74e9b61934fc1f67c655
   filter: brightness(0.8) contrast(1.5) saturate(0.975);
   background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/staff/staff.png");
 }
+
+/* Vencord Platform badges */
+span.vc-platform-indicator > svg {
+    transition-duration: 1.4s;
+    transition-delay: 0.1s;
+}
+span.vc-platform-indicator:hover > svg {
+    transform: rotateY(540deg) scale(1.2);
+    transition-delay: 0s;
+}
+
 .warningCircleIcon-3R0DL,
 .warningCircleIcon-mFju_mw {
   transition-duration: 0.2s;
