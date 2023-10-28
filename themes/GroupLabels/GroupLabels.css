@@ -1,5 +1,5 @@
 /* User Role List Category Group Labels */
-.members-3WRCEx .membersGroup-2eiWxl {
+.members__9f47b .membersGroup__85843 {
     width: calc(var(--User-List-Width) - 16px);
     font-family: var(--font-display);
     font-size: 12px;
@@ -10,7 +10,7 @@
     text-align: left;
     color: var(--channels-default);
   }
-  .membersGroup-2eiWxl::after {
+  .membersGroup__85843::after {
     content: "";
     display: block;
     width: 210px;

@@ -18,7 +18,7 @@
     line-height: 1;
     user-select: none;
 }
-.messagelogger-deleted time span:first {
+.messagelogger-deleted time span:before {
     font-size: 0.625rem;
     content: "🗑️  ";
     display: inline-block;
