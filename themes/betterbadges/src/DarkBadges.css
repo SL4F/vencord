@@ -231,14 +231,19 @@ a:hover > img[src="https://cdn.discordapp.com/badge-icons/fee1624003e2fee35cb398
   transform: rotateY(540deg) scale(1.2);
   transition-delay: 0s;
 }
-/* Original Username badge */
+/* Legacy Username badge */
 img[src="https://cdn.discordapp.com/badge-icons/6de6d34650760ba5551a79732e98ed60.png"] {
-  transition-duration: 1.4s;
-  transition-delay: 0.1s;
+  transition-duration: 0.4s;
+  transform: scale(1.15);
+  padding: var(--badge-size) var(--badge-size) 0px 0px;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-image: url("https://cdn.discordapp.com/badge-icons/6de6d34650760ba5551a79732e98ed60.png");
 }
 a:hover > img[src="https://cdn.discordapp.com/badge-icons/6de6d34650760ba5551a79732e98ed60.png"] {
-  transform: rotateY(540deg) scale(1.2);
-  transition-delay: 0s;
+  filter: drop-shadow(0px 0px 2px rgb(26, 188, 156));
+  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/legacyusername/legacyusername.png");
+  transform: scale(1.35);
 }
 /* Bug hunter badges */
 img[src="https://cdn.discordapp.com/badge-icons/848f79194d4be5ff5f81505cbd0ce1e6.png"],
@@ -255,6 +260,13 @@ img[src="https://cdn.discordapp.com/badge-icons/6f9e37f9029ff57aef81db857890005e
 }
 a:hover > img[src="https://cdn.discordapp.com/badge-icons/6f9e37f9029ff57aef81db857890005e.png"] {
   transform: rotateY(180deg) rotate(-90deg);
+}
+/* Quest badge */
+img[src="https://cdn.discordapp.com/badge-icons/7d9ae358c8c5e118768335dbe68b4fb8.png"] {
+  transition-duration: 0.5s;
+}
+a:hover > img[src="https://cdn.discordapp.com/badge-icons/7d9ae358c8c5e118768335dbe68b4fb8.png"] {
+  transform: rotate(180deg);
 }
 /* Staff badge */
 img[src="https://cdn.discordapp.com/badge-icons/5e74e9b61934fc1f67c65515d1f7e60d.png"] {
