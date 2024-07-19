@@ -94,39 +94,49 @@ a:hover > img[src="https://cdn.discordapp.com/badge-icons/bf01d1073931f921909045
   transform: translateY(-1.5px);
   transition-delay: 0s;
 }
-a[aria-label*="HypeSquad"] > img {
-  transition-duration: 0.4s;
-  transform: scale(1.15);
-  padding: var(--badge-size) var(--badge-size) 0px 0px;
-  overflow: hidden;
-  box-sizing: border-box;
-}
 a[aria-label*="HypeSquad"]:hover > img {
-  filter: drop-shadow(0px 0px 2px var(--hypesquad-colour));
-}
-a:hover > img[src="https://cdn.discordapp.com/badge-icons/8a88d63823d8a71cd5e390baa45efa02.png"] {
-  --hypesquad-colour: rgb(156, 132, 239);
-  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/bravery.png");
-  transform: scale(1.35);
-}
-a:hover > img[src="https://cdn.discordapp.com/badge-icons/011940fd013da3f7fb926e4a1cd2e618.png"] {
-  --hypesquad-colour: rgb(244, 123, 103);
-  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/brilliance.png");
-  transform: scale(1.35);
-}
-a:hover > img[src="https://cdn.discordapp.com/badge-icons/3aa41de486fa12454c3761e8e223442e.png"] {
-  --hypesquad-colour: rgb(69, 221, 192);
-  background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/balance.png");
-  transform: scale(1.35);
+  
 }
 img[src="https://cdn.discordapp.com/badge-icons/8a88d63823d8a71cd5e390baa45efa02.png"] {
-  background-image: url("https://cdn.discordapp.com/badge-icons/8a88d63823d8a71cd5e390baa45efa02.png");
+    background-image: url("https://cdn.discordapp.com/badge-icons/8a88d63823d8a71cd5e390baa45efa02.png");
+    transition-duration: 0.4s;
+    transform: scale(1.15);
+    padding: var(--badge-size) var(--badge-size) 0px 0px;
+    overflow: hidden;
+    box-sizing: border-box;
 }
+
 img[src="https://cdn.discordapp.com/badge-icons/011940fd013da3f7fb926e4a1cd2e618.png"] {
-  background-image: url("https://cdn.discordapp.com/badge-icons/011940fd013da3f7fb926e4a1cd2e618.png");
+    background-image: url("https://cdn.discordapp.com/badge-icons/011940fd013da3f7fb926e4a1cd2e618.png");
+    transition-duration: 0.4s;
+    transform: scale(1.15);
+    padding: var(--badge-size) var(--badge-size) 0px 0px;
+    overflow: hidden;
+    box-sizing: border-box;
 }
+
 img[src="https://cdn.discordapp.com/badge-icons/3aa41de486fa12454c3761e8e223442e.png"] {
-  background-image: url("https://cdn.discordapp.com/badge-icons/3aa41de486fa12454c3761e8e223442e.png");
+    background-image: url("https://cdn.discordapp.com/badge-icons/3aa41de486fa12454c3761e8e223442e.png");
+    transition-duration: 0.4s;
+    transform: scale(1.15);
+    padding: var(--badge-size) var(--badge-size) 0px 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+a:hover > img[src="https://cdn.discordapp.com/badge-icons/8a88d63823d8a71cd5e390baa45efa02.png"] {
+    filter: drop-shadow(0px 0px 2px rgb(156, 132, 239));
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/bravery.png");
+    transform: scale(1.35);
+}
+a:hover > img[src="https://cdn.discordapp.com/badge-icons/011940fd013da3f7fb926e4a1cd2e618.png"] {
+    filter: drop-shadow(0px 0px 2px rgb(244, 123, 103));
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/brilliance.png");
+    transform: scale(1.35);
+}
+a:hover > img[src="https://cdn.discordapp.com/badge-icons/3aa41de486fa12454c3761e8e223442e.png"] {
+    filter: drop-shadow(0px 0px 2px rgb(69, 221, 192));
+    background-image: url("https://sl4f.github.io/vencord/themes/betterbadges/src/img/hype/balance.png");
+    transform: scale(1.35);
 }
 /* Nitro badge */
 img[src="https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png"] {
