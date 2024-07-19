@@ -94,9 +94,6 @@ a:hover > img[src="https://cdn.discordapp.com/badge-icons/bf01d1073931f921909045
   transform: translateY(-1.5px);
   transition-delay: 0s;
 }
-a[aria-label*="HypeSquad"]:hover > img {
-  
-}
 img[src="https://cdn.discordapp.com/badge-icons/8a88d63823d8a71cd5e390baa45efa02.png"] {
     background-image: url("https://cdn.discordapp.com/badge-icons/8a88d63823d8a71cd5e390baa45efa02.png");
     transition-duration: 0.4s;
@@ -105,7 +102,6 @@ img[src="https://cdn.discordapp.com/badge-icons/8a88d63823d8a71cd5e390baa45efa02
     overflow: hidden;
     box-sizing: border-box;
 }
-
 img[src="https://cdn.discordapp.com/badge-icons/011940fd013da3f7fb926e4a1cd2e618.png"] {
     background-image: url("https://cdn.discordapp.com/badge-icons/011940fd013da3f7fb926e4a1cd2e618.png");
     transition-duration: 0.4s;
@@ -114,7 +110,6 @@ img[src="https://cdn.discordapp.com/badge-icons/011940fd013da3f7fb926e4a1cd2e618
     overflow: hidden;
     box-sizing: border-box;
 }
-
 img[src="https://cdn.discordapp.com/badge-icons/3aa41de486fa12454c3761e8e223442e.png"] {
     background-image: url("https://cdn.discordapp.com/badge-icons/3aa41de486fa12454c3761e8e223442e.png");
     transition-duration: 0.4s;
