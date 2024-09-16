@@ -7,7 +7,6 @@
 .messagelogger-edited time span:before {
     font-size: 0.625rem;
     content: "✏️  ";
-    filter: grayscale();
     display: inline-block;
     transform: scaleX(-1);
 }
